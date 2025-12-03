@@ -1,0 +1,133 @@
+/* font-family: 'Roboto', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #4848d6;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label {
+    color: #464646;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+
+
+main {
+    background-color: #9aa2cc;
+    width: 375px;
+    border: 1px solid black;
+    display: block;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+}
+
+.logo {
+    width: 250px;
+    margin-top: 80px;
+    margin-bottom: 48px;
+    display: block;
+    margin-inline: auto;
+}
+
+.flag_br {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin-inline: auto;
+    /*box-shadow: 0px 4px 10px #464646;*/
+}
+
+.arrow {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 24px;
+}
+
+.flag_us {
+    margin-bottom: 10px;
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin-inline: auto;
+    /* box-shadow: 0px 4px 10px #464646;*/
+}
+
+
+
+select {
+    background: #fff;
+
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+input {
+    background: #fff;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.button_converter {
+    background: #4848d6;
+    box-shadow: 0px 4px 10px #464646;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.currency {
+    text-align: center;
+    display: block;
+    margin-inline: auto;
+}
+
+.currency_value_to_convert {
+    text-align: center;
+    color: #464646;
+    display: block;
+    margin-inline: auto;
+}
+
+.currency_value_converted {
+    text-align: center;
+    color: #464646;
+    display: block;
+    margin-inline: auto;
+
+}
+
+section {
+    border: 1px solid #000;
+    border-radius: 20px;
+
+}
+
+    
